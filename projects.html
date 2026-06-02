@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="Projects by Rodrigo Demarco: quizzes, A/B testing, SQL, BigQuery and a cyberpunk portfolio."
+  />
+  <meta name="theme-color" content="#050816" />
+  <title>Projects | Rodrigo Demarco</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Orbitron:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="scanlines" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a href="index.html" class="logo" aria-label="Go to home">R/D</a>
+    <div class="header-actions">
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html" aria-current="page">Projects</a>
+      </nav>
+      <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch to light mode">
+        <span class="toggle-orbit" aria-hidden="true"></span>
+        <span data-theme-label>Dark</span>
+      </button>
+    </div>
+  </header>
+
+  <main class="page-shell">
+    <section class="page-header" aria-labelledby="projects-title">
+      <p class="status">PROJECT DATABASE</p>
+      <h1 id="projects-title">Projects</h1>
+      <p>
+        A selection of personal projects, academic work and experiments where I connect data,
+        code, learning and web interfaces.
+      </p>
+    </section>
+
+    <section class="projects-grid" aria-label="Project list">
+      <article class="project-card">
+        <div class="project-meta">
+          <span>01</span>
+          <span>In development</span>
+        </div>
+        <h2>FIS Quiz App</h2>
+        <p>
+          Quiz application for studying Software Engineering Fundamentals with questions,
+          categories and review material.
+        </p>
+        <ul class="tag-list" aria-label="Technologies">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+        <a class="project-link" href="#" aria-label="Open repo or demo placeholder for FIS Quiz App">Repo / Demo</a>
+      </article>
+
+      <article class="project-card">
+        <div class="project-meta">
+          <span>02</span>
+          <span>Prototype</span>
+        </div>
+        <h2>A/B Testing Tool</h2>
+        <p>
+          Tool for analyzing A/B experiments, reviewing metrics, comparing results and supporting
+          decisions with statistical evidence.
+        </p>
+        <ul class="tag-list" aria-label="Technologies">
+          <li>Python</li>
+          <li>Streamlit</li>
+          <li>Statistics</li>
+        </ul>
+        <a class="project-link" href="#" aria-label="Open repo or demo placeholder for A/B Testing Tool">Repo / Demo</a>
+      </article>
+
+      <article class="project-card">
+        <div class="project-meta">
+          <span>03</span>
+          <span>Labs</span>
+        </div>
+        <h2>SQL &amp; BigQuery Labs</h2>
+        <p>
+          Queries, exercises and data analysis practice for working with models, aggregations,
+          joins and real-world problems.
+        </p>
+        <ul class="tag-list" aria-label="Technologies">
+          <li>SQL</li>
+          <li>BigQuery</li>
+        </ul>
+        <a class="project-link" href="#" aria-label="Open repo or demo placeholder for SQL and BigQuery Labs">Repo / Demo</a>
+      </article>
+
+      <article class="project-card">
+        <div class="project-meta">
+          <span>04</span>
+          <span>Online</span>
+        </div>
+        <h2>Cyberpunk Portfolio</h2>
+        <p>
+          This personal portfolio with a cyberpunk aesthetic, simple navigation, neon cards,
+          basic SEO and direct deployment to GitHub Pages or Vercel.
+        </p>
+        <ul class="tag-list" aria-label="Technologies">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>GitHub Pages</li>
+        </ul>
+        <a class="project-link" href="#" aria-label="Open repo or demo placeholder for Cyberpunk Portfolio">Repo / Demo</a>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>Rodrigo Demarco</span>
+    <span>Projects indexed</span>
+    <span>System online</span>
+  </footer>
+  <div class="theme-wipe" aria-hidden="true"></div>
+  <script src="script.js"></script>
+</body>
+</html>
